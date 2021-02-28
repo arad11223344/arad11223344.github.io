@@ -79,8 +79,17 @@ body{
                     "div-text div-text ... lacasadepapel-gif" auto
                     "div-back-to-top div-back-to-top div-back-to-top div-back-to-top" 30px / 1fr 1fr 1fr 1fr;
     background-color:black;
-    grid-row-gap: 30px;
     grid-column-gap: 20px;
+}
+@media (min-width :1100px){
+    body{
+        grid-row-gap: 30px;
+    }
+}
+@media (max-width :1099px){
+    body{
+        grid-row-gap: 55px;
+    }
 }
 .div1{
     grid-area: div1;
