@@ -1,0 +1,115 @@
+h1,h2,h3{
+    color:#e50914;
+}
+h1{
+    padding-left: 30px;
+}
+p{
+    color: #FFFFFF;
+}
+.main-img {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+.wiki-img{
+    width: 100px;
+    height: 95px;
+    display: block;
+    margin: auto;
+}
+.wiki-img:hover{
+    width: 120px;
+    height: 115px;
+}
+.imdb-img{
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+.imdb-img:hover{
+    width: 120px;
+    height: 80px;
+}
+.Netflix-img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.Netflix-img:hover{
+    width: 130px;
+    height: 130px;
+}
+.rottentomatoes-img{
+    width: 110px;
+    height: 65px;
+    display: block;
+    margin: auto;
+    padding-top: 21px;
+}
+.rottentomatoes-img:hover{
+    width: 130px;
+    height: 95px;
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 0, 0);
+}
+
+body{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template: "div-header div-header div-header div-header" auto
+                    "div-main-img div-main-img div-main-img div-main-img" auto
+                    "div1 div2 div3 div4" 140px
+                    "div-text div-text ... lacasadepapel-gif" auto
+                    "div-back-to-top div-back-to-top div-back-to-top div-back-to-top" 30px / 1fr 1fr 1fr 1fr;
+    background-color:black;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+}
+.div1{
+    grid-area: div1;
+}
+.div2{
+    grid-area: div2;
+}
+.div3{
+    grid-area: div3;
+}
+.div4{
+    grid-area: div4;
+}
+.div-header{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-area: div-header;
+    background-color: #222222;
+    width: 100%;
+    border-radius: 150px;
+}
+.div-main-img{
+    grid-area: div-main-img;
+}
+.div-text{
+    grid-area: div-text;
+    padding: 1px 15px;
+    margin-left: 20px;
+    background-color: #222222;
+    border-radius: 30px;
+    border: #e50914 3px solid;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.back-to-top-icon{
+    grid-area:div-back-to-top;
+    padding-left: 5px;
+
+}
+.lacasadepapel.gif{
+    grid-area: lacasadepapel-gif;
+}
