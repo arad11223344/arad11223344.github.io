@@ -111,6 +111,7 @@ body{
     background-color: #222222;
     width: 100%;
     border-radius: 150px;
+    border: #e50914 2px solid;
 }
 .div-main-img{
     grid-area: div-main-img;
