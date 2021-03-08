@@ -77,9 +77,12 @@ body{
                     "div-main-img div-main-img div-main-img div-main-img" auto
                     "div1 div2 div3 div4" auto
                     "div-text div-text ... lacasadepapel-gif" auto
-                    "div-back-to-top div-back-to-top div-back-to-top div-back-to-top" 30px / 1fr 1fr 1fr 1fr;
+                    "div-back-to-top div-back-to-top div-back-to-top pos-notification-21146" 30px / 1fr 1fr 1fr 1fr;
     background-color:black;
     grid-column-gap: 20px;
+}
+#pos-notification-21146{
+    grid-area: pos-notification-21146;
 }
 @media (min-width :1100px){
     body{
